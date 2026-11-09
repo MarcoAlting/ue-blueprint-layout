@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Blueprint Layout Toolset",
+	"Description": "MCP tools that lay out Blueprint graphs with the editor's own straighten, align and distribute commands, read real node sizes, and add comment boxes.",
+	"Category": "Editor",
+	"CreatedBy": "Marco Alting",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "BlueprintLayoutToolset",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"TargetAllowList": [ "Editor" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ToolsetRegistry",
+			"Enabled": true
+		}
+	]
+}
